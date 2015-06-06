@@ -7,15 +7,19 @@ from django.db import models, migrations
 class Migration(migrations.Migration):
 
     dependencies = [
+        ('talky', '0001_initial'),
     ]
 
     operations = [
         migrations.CreateModel(
-            name='Player',
+            name='Passport',
             fields=[
                 ('id', models.AutoField(verbose_name='ID', serialize=False, auto_created=True, primary_key=True)),
-                ('name', models.CharField(max_length=10)),
                 ('passport_number', models.IntegerField(unique=True)),
             ],
+        ),
+        migrations.RemoveField(
+            model_name='player',
+            name='passport_number',
         ),
     ]
