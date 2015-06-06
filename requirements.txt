@@ -1,0 +1,4 @@
+Django==1.8.2
+ipython==3.1.0
+pip-tools==0.3.6
+wheel==0.24.0
