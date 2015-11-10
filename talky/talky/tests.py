@@ -2,7 +2,7 @@ from django.core.exceptions import ValidationError
 from django.db import IntegrityError
 from django.test import TestCase
 
-from .models import Passport, Player
+from .models import Passport, Player, NewPlayer
 
 
 class TestTalk(TestCase):

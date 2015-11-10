@@ -1,6 +1,9 @@
 from django.db import models
 
 
+class NewPlayer(models.Model):
+    name = models.CharField(max_length=10, blank=False, unique=True)
+
 class Player(models.Model):
     name = models.CharField(max_length=10, blank=False)
 
