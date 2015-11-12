@@ -1,6 +1,9 @@
 ``full_clean`` vs ``save``
 ==========================
 
+.. image:: https://travis-ci.org/jamescooke/django-clean-vs-save.svg?branch=master
+    :target: https://travis-ci.org/jamescooke/django-clean-vs-save
+
 Simple experiments with Django model's ``full_clean`` function and when it's
 called.
 
